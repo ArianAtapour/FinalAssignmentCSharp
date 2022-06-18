@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Skater] (
+    [Name]     VARCHAR (50) NOT NULL,
+    [Distance] FLOAT (53)   NULL,
+    [Points]   FLOAT (53)   NULL,
+    [Time]     VARCHAR (10) NULL,
+    PRIMARY KEY CLUSTERED ([Name] ASC)
+);
+
